@@ -45,6 +45,8 @@ class StaticFileController
         $pagePath = $request->getUri()->getPath();
         $assetFile = get_path('root') . str_replace('/', DIRECTORY_SEPARATOR, $pagePath);
 
+        header('Content-Type:' . $this->getContentTypeFromFileName(basename($pagePath)));
+
         $response  = $response->withHeader('Content-Type', $this->getContentTypeFromFileName(basename($pagePath)));
         $response->getBody()->write(file_get_contents($assetFile));
 
