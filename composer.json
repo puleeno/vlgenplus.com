@@ -1,5 +1,5 @@
 {
-    "name": "puleeno/cms",
+    "name": "jackal/cms",
     "cms-version": "1.0.0",
     "description": "Yet another PHP CMS by Puleeno Nguyen",
     "keywords": [
@@ -14,7 +14,7 @@
         {
             "name": "Puleeno Nguyen",
             "email": "puleeno@gmail.com",
-            "homepage": "https://puleeno.com"
+            "homepage": "https://jackal.com"
         },
         {
             "name": "Josh Lockhart",

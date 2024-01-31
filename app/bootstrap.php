@@ -1,6 +1,6 @@
 <?php
 
-namespace Puleeno;
+namespace Jackal;
 
 use App\Common\Option;
 use App\Constracts\AssetTypeEnum;
@@ -200,7 +200,7 @@ final class Bootstrap
         $assetManager = AssetManager::getInstance();
         $version = $this->container->get('version');
         HookManager::addAction('head', function () use ($version) {
-            echo sprintf('<meta name="generator" content="Puleeno CMS %s">', $version) . PHP_EOL;
+            echo sprintf('<meta name="generator" content="Jackal CMS %s">', $version) . PHP_EOL;
         }, 0);
         HookManager::addAction('head', function () {
             $faviconUrl = HookManager::applyFilters('favicon_url', '/assets/favicon.ico');

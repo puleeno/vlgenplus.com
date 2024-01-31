@@ -35,7 +35,7 @@ use App\Core\Routing\RouteCollector;
 use App\Http\ResponseEmitter\ResponseEmitter;
 use App\Providers\ServiceProvider;
 use App\Core\Log\LogServiceProvider;
-use PuleenoCMS\Exceptions\InvalidApplicationException;
+use Jackal\Exceptions\InvalidApplicationException;
 
 use function strtoupper;
 

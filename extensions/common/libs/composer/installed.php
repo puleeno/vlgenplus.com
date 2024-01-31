@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'puleeno-cms/common',
+        'name' => 'jackal-cms/common',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'reference' => '1bf6770f09a1b43310bcd4428759f5b95f105cb3',
@@ -10,7 +10,7 @@
         'dev' => true,
     ),
     'versions' => array(
-        'puleeno-cms/common' => array(
+        'jackal-cms/common' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'reference' => '1bf6770f09a1b43310bcd4428759f5b95f105cb3',

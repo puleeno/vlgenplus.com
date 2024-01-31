@@ -1,6 +1,6 @@
 <?php
 
-namespace PuleenoCMS\Exceptions;
+namespace Jackal\Exceptions;
 
 use Exception;
 

@@ -22,7 +22,7 @@ class AssetsMiddleware implements MiddlewareConstract
     {
         return HookManager::applyFilters(
             'title',
-            get_option('site_name', 'Puleeno CMS')
+            get_option('site_name', 'Jackal CMS')
         );
     }
 

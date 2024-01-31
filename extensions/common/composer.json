@@ -1,14 +1,14 @@
 {
-    "name": "puleeno-cms/common",
-    "description": "The common extension for Puleeno CMS",
+    "name": "jackal-cms/common",
+    "description": "The common extension for Jackal CMS",
     "autoload": {
         "psr-4": {
-            "PuleenoCMS\\Common\\": "src/"
+            "Jackal\\Extension\\Common\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Puleeno",
+            "name": "Jackal",
             "email": "puleeno@gmail.com"
         }
     ],
