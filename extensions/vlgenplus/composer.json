@@ -1,0 +1,22 @@
+{
+    "name": "vlgenplus/vlgenplus",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VlGenPlus\\VlGenPlus\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Puleeno",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "vendor-dir": "libs"
+    },
+    "extension-class": "\\VlGenPlus\\VlGenPlus\\CrawlerExtension"
+}

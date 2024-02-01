@@ -9,13 +9,10 @@
 	url = https://github.com/jackal-cms/dashboard-extension.git
 [submodule "extensions/text-editor"]
 	path = extensions/text-editor
-	url = https://github.com/jackal-cms/editor-extension.git
+	url = https://github.com/jackal-cms/text-editor-extension.git
 [submodule "extensions/file-manager"]
 	path = extensions/file-manager
 	url = https://github.com/jackal-cms/file-manager-extension.git
 [submodule "extensions/seo"]
 	path = extensions/seo
 	url = https://github.com/jackal-cms/seo-extension.git
-[submodule "extensions/layout-uikit"]
-	path = extensions/layout-uikit
-	url = https://github.com/jackal-cms/layout-uikit-extension.git
