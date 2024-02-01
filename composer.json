@@ -1,5 +1,5 @@
 {
-    "name": "jackal/cms",
+    "name": "puleeno/jackal-cms",
     "cms-version": "1.0.0",
     "description": "Yet another PHP CMS by Puleeno Nguyen",
     "keywords": [
